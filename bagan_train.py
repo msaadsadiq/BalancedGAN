@@ -15,7 +15,7 @@ import numpy as np
 from optparse import OptionParser
 
 import balancing_gan as bagan
-from rw.batch_generator_mnist import MnistBatchGenerator as BatchGenerator
+from batch_generator_mnist import MnistBatchGenerator as BatchGenerator
 from utils import save_image_array
 
 import os
