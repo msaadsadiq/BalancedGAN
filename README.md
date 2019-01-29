@@ -1,5 +1,5 @@
 # BAGAN
-Keras implementation of [Balancing GAN (BAGAN)](https://arxiv.org/abs/1803.09655) applied to the MNIST example.
+This is an extension of the original Keras implementation of [Balancing GAN (BAGAN)] by IBM (https://github.com/IBM/BAGAN)for their paper (https://arxiv.org/abs/1803.09655) extended to be used for all size of images.
 
 The framework is meant as a tool for data augmentation for imbalanced image-classification datasets where some classes are under represented.
 The generative model applied to sample new images for the minority class is trained in three steps: a) training a preliminary autoencoder, b) initialization of the generative adversarial framework by means of the pre-trained autoencoder modules, and c) fine tuning of the generative model in adversarial mode.
